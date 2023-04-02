@@ -4,6 +4,6 @@ function 2019Deploy {
     .$env:temp\offiedeploy.exe /quiet /extract:$env:temp\deploy
     (New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/quantumwavves/PoshScripts-qw/master/resources/OfficeDeploy/2019ProPlus.xml", "$env:temp\deploy\2019ProPlus.xml")
     .$env:temp\deploy\setup.exe /configure $env:temp\deploy\2019ProPlus.xml
-    Write-Output"FINISH"
+    Write-Output "Finished deploy"
 }
 2019Deploy
