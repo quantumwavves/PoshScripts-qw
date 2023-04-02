@@ -1,0 +1,16 @@
+<!-- Office LTSC 2021 Personal XML Configuration-->
+
+<Configuration>
+
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2021">
+    <Product ID="ProPlus2021Volume">
+      <Language ID="es-mx" />
+      <Language ID="en-us" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="Teams" />
+    </Product>
+  </Add>
+  <Remove All="True" />
+  <Display Level="None" AcceptEULA="TRUE" />
+</Configuration>

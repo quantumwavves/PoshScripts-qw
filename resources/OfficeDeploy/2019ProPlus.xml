@@ -1,0 +1,15 @@
+<!--Office personal config ProPlus2019 xml-->
+<Configuration>
+
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2019">
+    <Product ID="ProPlus2019Volume">
+      <Language ID="es-mx" />
+      <Language ID="en-us" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="Teams" />
+    </Product>
+  </Add>
+  <RemoveMSI All="True" />
+  <Display Level="None" AcceptEULA="TRUE" />
+</Configuration>
