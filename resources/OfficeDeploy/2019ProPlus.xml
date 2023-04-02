@@ -3,7 +3,7 @@
 
   <Add OfficeClientEdition="64" Channel="PerpetualVL2019">
     <Product ID="ProPlus2019Volume">
-      <Language ID="es-mx" />
+      <Language ID="es-es" />
       <Language ID="en-us" />
       <ExcludeApp ID="Lync" />
       <ExcludeApp ID="OneDrive" />
