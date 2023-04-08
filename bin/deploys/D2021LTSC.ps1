@@ -3,6 +3,7 @@ function 2021Deploy {
     mkdir $env:temp\deploy
     . $env:temp\offiedeploy.exe /quiet /extract:$env:temp\deploy
     (New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/quantumwavves/PoshScripts-qw/master/resources/OfficeDeploy/2021LTSC.xml", "$env:temp\deploy\2021LTSC.xml")
+    Start-Sleep -Seconds 3
     cmd.exe /c "$env:temp\deploy\setup.exe /configure $env:temp\deploy\2021LTSC.xml"
     Write-Output "Finished deploy"
 }
