@@ -2,7 +2,7 @@ function 2021Deploy {
     $totalSteps=5
     $currentStep=1
     $officeVersion="2021 LTSC"
-    $DownloadUrl="https://download.microsoft.com/download/2/7/A/27AF1BE6-DD20-4CB4-B154-EBAB8A7D4A7E/officedeploymenttool_16327-2021.exe"
+    $DownloadUrl="https://download.microsoft.com/download/2/7/A/27AF1BE6-DD20-4CB4-B154-EBAB8A7D4A7E/officedeploymenttool_16327-20214.exe"
     $xml="https://raw.githubusercontent.com/quantumwavves/PoshScripts-qw/master/resources/OfficeDeploy/2021LTSC.xml"
     $mirrorUrl="https://media.githubusercontent.com/media/quantumwavves/PoshScripts-qw/master/resources/Executables/officedeploymenttool_16327-20214.exe"
     #Download deploy tool
